@@ -21,7 +21,7 @@ func main() {
 	apiV1 := app.Group("/api/v1")
 
 	apiV1.GET(
-		"/check-health", func(c *gin.Context) {
+		"/health", func(c *gin.Context) {
 			c.JSON(
 				200, gin.H{
 					"message": "I'm alive",
