@@ -34,6 +34,7 @@ func (r *repository) FindAll() ([]*entity.Car, error) {
 	for _, record := range all {
 		car := entity.Car{}
 		err := mapstructure.Decode(record, &car)
+
 		if err != nil {
 			log.Printf("error decoding record: %v", err)
 			continue

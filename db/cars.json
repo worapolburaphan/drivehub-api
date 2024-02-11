@@ -1,8 +1,44 @@
 [
  {
+  "discount": 500,
   "id": "cfdfe341-909e-419b-a1b6-716f612b6f3b",
   "name": "Update",
-  "price": 1000,
-  "discount": 500
+  "price": 1000
+ },
+ {
+  "discount": 2500,
+  "id": "bd8ba5e0-22a4-4ee5-b264-8b44f9c8c6bd",
+  "name": "Hello Test New Car",
+  "price": 10000
+ },
+ {
+  "discount": 200,
+  "id": "626dc879-30fa-4560-b851-e045ae809b39",
+  "name": "Toyota Vios",
+  "price": 800
+ },
+ {
+  "discount": 5,
+  "id": "",
+  "name": "Test",
+  "price": 10
+ },
+ {
+  "discount": 5,
+  "id": "8cd2a3ac-1b4c-48b6-adee-795b18a57d65",
+  "name": "Test",
+  "price": 10
+ },
+ {
+  "discount": 5,
+  "id": "b58053ca-f6d9-4f20-b03a-f7f40700c072",
+  "name": "Test",
+  "price": 10
+ },
+ {
+  "id": "",
+  "name": "Test",
+  "price": 10,
+  "discount": 5
  }
 ]
